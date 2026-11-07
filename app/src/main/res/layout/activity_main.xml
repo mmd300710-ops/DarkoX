@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:background="#100817"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:gravity="center_vertical"
+        android:padding="10dp" android:background="#1B1028"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:src="@drawable/darkox_logo" android:scaleType="centerCrop"
+            android:layout_width="42dp" android:layout_height="42dp" android:contentDescription="Darko X logo"/>
+        <EditText android:id="@+id/address" android:singleLine="true" android:imeOptions="actionGo"
+            android:hint="Search or enter website" android:textColor="#FFFFFF"
+            android:hintTextColor="#B7A7C7" android:backgroundTint="#A855F7"
+            android:inputType="textUri" android:padding="10dp"
+            android:layout_marginStart="8dp" android:layout_width="0dp"
+            android:layout_weight="1" android:layout_height="48dp"/>
+        <Button android:id="@+id/go" android:text="GO" android:textColor="#FFFFFF"
+            android:backgroundTint="#7E22CE" android:layout_width="wrap_content"
+            android:layout_height="48dp"/>
+    </LinearLayout>
+    <WebView android:id="@+id/browser" android:layout_width="match_parent"
+        android:layout_height="0dp" android:layout_weight="1"/>
+    <LinearLayout android:orientation="horizontal" android:gravity="center"
+        android:background="#1B1028" android:padding="4dp"
+        android:layout_width="match_parent" android:layout_height="52dp">
+        <Button android:id="@+id/back" android:text="‹" android:textSize="20sp"
+            android:backgroundTint="#352044" android:layout_width="0dp" android:layout_weight="1" android:layout_height="44dp"/>
+        <Button android:id="@+id/home" android:text="Home"
+            android:backgroundTint="#352044" android:layout_width="0dp" android:layout_weight="1" android:layout_height="44dp"/>
+        <Button android:id="@+id/rewards" android:text="DKX"
+            android:backgroundTint="#6B21A8" android:layout_width="0dp" android:layout_weight="1" android:layout_height="44dp"/>
+        <Button android:id="@+id/admin" android:text="Admin"
+            android:backgroundTint="#352044" android:layout_width="0dp" android:layout_weight="1" android:layout_height="44dp"/>
+    </LinearLayout>
+</LinearLayout>

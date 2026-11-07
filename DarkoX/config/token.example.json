@@ -1,0 +1,9 @@
+{
+  "network": "Base Mainnet",
+  "chainId": 8453,
+  "tokenName": "Darko X",
+  "tokenSymbol": "DKX",
+  "tokenStandard": "ERC-20",
+  "tokenContractAddress": "0x0000000000000000000000000000000000000000",
+  "status": "NOT_DEPLOYED"
+}
